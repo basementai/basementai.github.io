@@ -20,7 +20,7 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: #777;;
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
@@ -223,6 +223,17 @@ header {
     }
 }
 
+.research-box {
+    max-width: 400px;
+    margin: 50px auto 0;
+    @media (min-width: 992px) {
+        margin: 20px auto 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
 .portfolio-box {
     position: relative;
     display: block;
@@ -318,7 +329,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: $theme-dark;
+    color: $theme-primary;
     font-size: 4em;
 }
 
