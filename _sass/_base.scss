@@ -20,11 +20,21 @@ hr.light {
 
 a {
     @include transition-all;
-    color: #777;;
+    color: #777;
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
     }
+}
+#about a {
+  .fa{
+    color:white;
+  }
+}
+#about a:hover {
+  .fa {
+    color: darken(white, 10%);
+  }
 }
 
 h1,
@@ -290,7 +300,7 @@ header {
     }
 }
 
-.call-to-action {
+.about {
     h2 {
         margin: 0 auto 20px;
     }
