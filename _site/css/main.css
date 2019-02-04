@@ -111,6 +111,6 @@ img::-moz-selection { color: white; background: transparent; }
 
 body { -webkit-tap-highlight-color: #212121; }
 
-header .header-content .header-content-inner h1 { font-weight: 100; text-transform: none; margin-top: 0; margin-bottom: 0; }
+header .header-content .header-content-inner h1 { font-weight: 100; text-transform: none; margin-top: 0; margin-bottom: 0; color: #3d85c6; }
 
-header .header-content .header-content-inner span { font-weight: 300; margin-top: 0; margin-bottom: 0; color: #3d85c6; }
+header .header-content .header-content-inner span { font-weight: 200; margin-top: 0; margin-bottom: 0; color: white; }
