@@ -37,6 +37,15 @@ a {
   }
 }
 
+#contact a {
+    @include transition-all;
+    color: white;
+    &:hover,
+    &:focus {
+        color: darken(white, 10%);
+    }
+}
+
 h1,
 h2,
 h3,
@@ -338,10 +347,10 @@ header {
 }
 
 // Contact
-#contact .fa {
-    color: $theme-primary;
-    font-size: 4em;
-}
+//#contact .fa {
+//    color: $theme-primary;
+//    font-size: 4em;
+//}
 
 // Extras
 // -- Highlight Color Customization

@@ -13,6 +13,9 @@ a:hover, a:focus { color: #2f6ba1; }
 
 #about a:hover .fa { color: #e6e6e6; }
 
+#contact a { -webkit-transition: all 0.35s; -moz-transition: all 0.35s; transition: all 0.35s; color: white; }
+#contact a:hover, #contact a:focus { color: #e6e6e6; }
+
 h1, h2, h3, h4, h5, h6 { /*font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;*/ font-family: 'Roboto', sans-serif; font-weight: 400; }
 
 p { font-size: 16px; line-height: 1.5; margin-bottom: 20px; }
@@ -99,8 +102,6 @@ header .header-content .header-content-inner p { font-weight: 300; color: white;
 
 .btn-xl { padding: 15px 30px; }
 
-#contact .fa { color: #3d85c6; font-size: 4em; }
-
 ::-moz-selection { color: white; text-shadow: none; background: #212121; }
 
 ::selection { color: white; text-shadow: none; background: #212121; }
@@ -114,9 +115,3 @@ body { -webkit-tap-highlight-color: #212121; }
 header .header-content .header-content-inner h1 { font-weight: 100; text-transform: none; margin-top: 0; margin-bottom: 0; color: #3d85c6; }
 
 header .header-content .header-content-inner span { font-weight: 200; margin-top: 0; margin-bottom: 0; color: white; }
-
-.demo-box { max-width: 400px; margin: 50px auto 0; }
-@media (min-width: 992px) { .demo-box { margin: 20px auto 0; } }
-.demo-box p { margin-bottom: 0; }
-.demo-box a { color: black; }
-.demo-box i { color: #3d85c6; }

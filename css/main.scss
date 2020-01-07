@@ -45,22 +45,3 @@ $theme-dark: #212121;
 
 header .header-content .header-content-inner h1 { font-weight: 100; text-transform: none; margin-top: 0; margin-bottom: 0;  color: #3d85c6;}
 header .header-content .header-content-inner span { font-weight: 200; margin-top: 0; margin-bottom: 0; color: white; }
-
-.demo-box {
-    max-width: 400px;
-    margin: 50px auto 0;
-    @media (min-width: 992px) {
-        margin: 20px auto 0;
-    }
-    p {
-        margin-bottom: 0;
-    }
-
-    a {
-        color: black;
-    }
-
-    i {
-        color: #3d85c6;
-    }
-}
